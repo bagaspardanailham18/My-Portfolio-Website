@@ -17,62 +17,100 @@ body {
   width: 500px;
 }
 
-.btn-hero {
-  background-color: #4d17e2;
-  text-decoration: none;
+.my-name {
+  font-size: 96px;
+  font-weight: 600;
 }
 
-.category {
-  margin-top: 200px;
+.my-title {
+  font-size: 36px;
+  font-weight: 500;
 }
 
-.category-box {
-  background-color: #4d17e2;
-  height: 400px;
-  position: relative;
-  transform-style: preserve-3d;
-}
-
-.category-name {
-  color: white;
+.socialmedia-links {
   position: absolute;
-  left: 50%;
-  top: 0%;
-  transform: translate(-50%, 0);
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.category-box:hover .category-name {
-  opacity: 1;
-  top: 24px;
-}
-
-.category-img {
-  position: absolute;
-  max-width: 200px;
   top: 50%;
   left: 50%;
-  transform: translate3d(-50%, -50%, 80px);
-  transition: 0.5s;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.category-box:hover .category-img {
-  transform: translate3d(-50%, -50%, 100px) scale(1.5) rotate(3deg);
+.socialmedia-links p {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 24px;
 }
 
-.category-btn {
-  position: absolute;
-  bottom: 0%;
+.socialmedia-links a {
+  width: auto;
+  background-color: white;
+  box-shadow: 1px 1px 50px 1px rgba(0, 0, 0, 0.178);
+  padding: 31px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 12px;
+}
+.socialmedia-links img {
+  width: 52px;
+  height: 52px;
+}
+
+.btn-profile {
+  background-color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.profile {
+  background-color: #0000ff;
+  margin-top: 170px;
+  padding: 100px;
+}
+
+.profile img {
+  margin: auto;
+  position: relative;
+  top: 50%;
   left: 50%;
-  transform: translate3d(-50%, 0, 100px);
-  opacity: 0;
-  transition: 0.5s;
+  transform: translate(-50%, -50%);
+  border-radius: 40px;
 }
 
-.category-box:hover .category-btn {
-  bottom: 24px;
-  opacity: 1;
+.profile-description {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  line-height: 50px;
+}
+
+.myworks {
+  margin-top: 150px;
+}
+
+.myworks p {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.myworks-box {
+  box-shadow: 1px 1px 50px 1px rgba(0, 0, 0, 0.103);
+}
+
+.technology {
+  margin-top: 150px;
+}
+
+.technology p {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.technology-box {
+  width: fit-content;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 1px 1px 50px 1px rgba(0, 0, 0, 0.103);
 }
 
 .footer {
